@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+.add-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	background-color: #5787d6;
+	
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+#wrapper {width: 100%; margin-top: 0px;}
+#header {
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	background: #6DBC2F;
+	color: black;
+	font-size: 15px;
+}
+
+#container {
+	width: 100%;
+	margin-top: auto;
+}
+
+#container h3 {
+	color: #000;
+}
+
+#container #content {
+	margin-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 72%;
+}
+
+th {
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #2c58a0;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+tr:nth-child(even) {
+	background: #FFFFFF;
+}
+tr:nth-child(odd) {
+	background: #BBBBBB;
+}

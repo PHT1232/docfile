@@ -1,0 +1,29 @@
+label {
+	display: block;
+	font: 17px, 'Fira Sans', sans-serif;
+}
+
+label {
+	margin-top: 15px;
+}
+.header {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 10px;
+	max-width: 500px;
+	margin: auto;
+}
+
+body {
+	background: #555;
+}
+
+.content {
+	max-width: 500px;
+	margin: auto; background: white;
+	padding: 10px;
+}
+
+.menu {
+	float: right;
+}
